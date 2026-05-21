@@ -15,13 +15,12 @@ This repository contains a full non-linear finite element analysis (FEA) framewo
 ---
 
 ## 📊 Structural Geometry & Helical Fiber Architecture
-The model replicates two primary structural tissue boundaries: the **Media** layer and the **Adventitia** layer. Each layer is configured with unique, symmetric collagen fiber orientation vectors ($\mathbf{a}_{01}$ and $\mathbf{a}_{02}$) to accurately capture real biological anisotropy.
+The model replicates two primary structural tissue boundaries: the **Media** layer and the **Adventitia** layer. Each layer is configured with unique, symmetric collagen fiber orientation vectors to accurately capture real biological anisotropy.
 
 <p align="center">
   <img src="images/fiber_layout.png" alt="COMSOL Anisotropic Fiber Orientation" width="600">
 </p>
 <p align="center">
-  <em>Figure 1: Simulated helical collagen fiber layout in the undeformed configuration of the media (red) and adventitia (blue).</em>
 </p>
 
 ---
@@ -35,7 +34,6 @@ By plotting internal pressure against the changing inner radius of the vascular 
   <img src="images/pressure_vs_radius.png" alt="Internal Pressure vs Inner Radius Optimization Curve" width="650">
 </p>
 <p align="center">
-  <em>Figure 2: Validation curves tracking simulated internal pressure response against inner radius variations across multiple axial stretches.</em>
 </p>
 
 ### 2. Cauchy & Radial Stress Distributions
@@ -45,7 +43,6 @@ Stress concentrations ($\sigma_{\theta\theta}$, $\sigma_{zz}$) peak at the inner
   <img src="images/cauchy_stress.png" alt="Color Mapped Cauchy Stress Field Analysis" width="600">
 </p>
 <p align="center">
-  <em>Figure 3: FEA stress distribution tracking mechanical stress migration through the wall under peak inflation.</em>
 </p>
 
 ---
@@ -53,4 +50,4 @@ Stress concentrations ($\sigma_{\theta\theta}$, $\sigma_{zz}$) peak at the inner
 ## 📂 Complete Project Documentation
 The full 23-page literature review, continuum mechanics math, equilibrium derivations, and step-by-step COMSOL configurations are fully documented in the final project report:
 
-📄 **[Read the Full Technical Report (PDF)](documents/Arterial_Wall_Mechanics_HGO_Model.pdf)**
+📄 **[Read the Full Technical Report (PDF)](documents/Arterial_Wall_Mechanics_Paper.pdf)**
